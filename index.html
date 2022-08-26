@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <title>Tidepool Labs Europe</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/global-styles.css">
 </head>
 <body>
 <div class="background">
     <div class="container">
         <header>
             <div class="hero-section flex-display flex-direction-column flex-justify-space-between">
-                <nav class="align-items-center flex-justify-space-between flex-display flex-direction padding-top margin-top">
+                <nav class="align-items-center flex-justify-space-between flex-display flex-direction padding-top margin-top-16">
                     <img src="./image/logos.png" class="logo">
                     <ul class="menu-item-section flex-display flex-direction">
                         <li class="menu-item padding-right margin-right">Team</li>
                         <li class="menu-item">Portfolio</li>
                     </ul>
                 </nav>
-                <div class="section1">
+                <div>
                     <div class="header-title-div">
                         <h1 class="header-title-text">
                             Your vision brought <br/>you here.
@@ -26,7 +28,7 @@
 
                     <div class="align-items-center flex-justify-space-between flex-display flex-direction">
                         <h2 class="header-description-text">
-                            Now make it happen by partnering with our <br/>Startup Studio and go <em class="chocolate-font-color">from zero to launch</em>
+                            Now make it happen by partnering with our <br/>Startup Studio and go <em class="chocolate-font-color">from zero to launch.</em>
                         </h2>
                         <img src="./image/scroll.png">
                     </div>
@@ -34,13 +36,46 @@
             </div>
         </header>
     </div>
-    <section>
+    <section class="flex-direction-column flex-justify-space-between portfolio-section-background-color">
         <div class="container">
             <main>
                 <div>
-                    <p>
+                    <div class="portfolio-section-title-top-border-line margin-top-64"></div>
+                    <h3 class="portfolio-section-title margin-top-8">Portfolio</h3>
+                    <h1 class="portfolio-section-subtitle margin-top-16">We partner with founders to <br/>bring <em class="chocolate-font-color">ideas</em> to life.</h1>
+                    <p class="portfolio-section-subtitle-description margin-top-16 margin-bottom-32">We serve as your interim founding engineering team to take <br/>your idea from prototype to product.</p>
+                </div>
 
-                    </p>
+                <div id="portfolio-section-scroll-list-container">
+                    <div class="item item padding-right margin-right">
+                        <img src="./image/scroll-list-image-1.png" class="padding-right margin-right">
+                        <h2 class="portfolio-section-scroll-list-item-title margin-top-32">Learn to win</h2>
+                        <p class="portfolio-section-scroll-list-item-description margin-top-4">A high-performance microlearning platform used by elite athletes, military pilots and more</p>
+                        <div class="margin-top-16">
+                            <img src="./image/link.png">
+                        </div>
+                    </div>
+                    <div class="item padding-right margin-right">
+                        <img src="./image/scroll-list-image-2.png" >
+                        <h2 class="portfolio-section-scroll-list-item-title margin-top-32">TRM</h2>
+                        <p class="portfolio-section-scroll-list-item-description margin-top-4">A suite of integrated applications for monitoring, investigating, and reporting cryptocurrency.</p>
+                        <div class="margin-top-16">
+                            <img src="./image/link.png">
+                        </div>
+                    </div>
+                    <div class="item item padding-right margin-right">
+                        <img src="./image/scroll-list-image-1.png">
+                        <h2 class="portfolio-section-scroll-list-item-title margin-top-32">Learn to win</h2>
+                        <p class="portfolio-section-scroll-list-item-description margin-top-4">A high-performance microlearning platform used by elite athletes, military pilots and more</p>
+                        <div class="margin-top-16">
+                            <img src="./image/link.png">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="portfolio-section-button">
+                        Visit All Projects
+                    </button>
                 </div>
             </main>
         </div>
