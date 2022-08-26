@@ -103,7 +103,66 @@
     color: #858585;
 }
 
+.portfolio-section-button-container {
+    justify-content: center;
+}
+
 .portfolio-section-button {
     border-radius: 40px;
     background: linear-gradient(118.59deg, #EF4E40 0%, #F77A5A 100%);
+}
+
+.testimonials-article-background-color {
+    background: #F7F7F7;
+}
+
+.testimonials-section-title-top-border-line {
+    width: 8%;
+    border: 1px solid #F77A5A;
+}
+
+.testimonials-section-ceo-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4A4A4A;
+}
+
+.testimonials-section-ceo-profession {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #858585;
+    opacity: 0.8;
+}
+
+.testimonials-section-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4A4A4A;
+}
+
+.footer-background-color {
+    background: linear-gradient(118.59deg, #F77A5A 10.42%, #FFA573 83.85%);
+}
+
+.footer-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.footer-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
